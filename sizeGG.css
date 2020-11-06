@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+    font-weight: normal;
+    font-style: normal;
+}
+/*html{
+	background-color:black;
+	
+}*/
+p {
+	font-size: 14px;
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+	/*text-transform: capitalize;*/	}
+	}
+
+	body{
+	}
+/* the default of body is to use the full size of the area availabe
+in the browser screen. you can overide this with a max-width: #px;*/
+#container{
+	width: 1800px;
+	height: auto;
+	background-color: #FFF;
+	margin-top: 22px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+	padding-bottom: 3%;
+}
+#containerSmall{
+	width: 500px;
+	height: 500px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 3%;
+	background-color: #B11010
+	
+}
+
+#imgHolder{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#text{
+	width: 500px;
+	height: auto;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	font-size: 24px;
+}
+
+@media screen and (max-width: 1280px) {
+#wrap_______________START1279{} /*this is a "null element. for search only*/ 
+/* these elements are set to fixed pixel sizes in the default, old computer
+and horizontal tablet sizes*/
+#container{
+	width: 1200px;
+	margin-top: 20px;
+	margin-left: auto;
+	padding-top: 20px;
+}
+#containerSmall{
+	width: 400px;
+	height: 460px;
+	background-color: #B11010;
+}
+#imgHolder{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#text{
+	width: 660px;
+	margin-top: 40px;
+	padding: 70px;
+	font-size: 20px;
+}
+}
+
+@media screen and (max-width: 540px) {
+#wrap_______________START768{} /*this is a "null element. for search only*/ 
+#container{
+	width: 80%;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#containerSmall{
+	width: 80%;
+	height: auto;
+	margin-top: 2%;
+	padding-bottom: 3%;
+	background-color: #B11010;
+	}
+#imgHolder{
+	width: 80%;
+	height: auto;
+	}	
+
+#text{
+	width: 60%;
+	padding: 10%;
+	font-size: 16px;
+	visibility: hidden;
+}
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
