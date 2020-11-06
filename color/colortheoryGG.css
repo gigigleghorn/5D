@@ -1,0 +1,96 @@
+@charset "utf-8"; 
+
+html, body, div, h1, h2, h3, h4, h5, h6, p,img {
+	max-width: 1900px
+}   ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, section,
+
+/* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section { display: block; } 
+p{
+
+}
+
+#container {
+	width: 1900px;
+	height: 900px;
+	background: #EEE;
+}
+
+
+#masthead {
+	width: 1900px;
+	height: 200px;
+	float: left;
+	background: #FFF;
+}
+
+#sidebar {
+	width: 200px;
+	height: 680px;
+	float: left;
+	
+}
+
+#leftco{
+	width: 320px;
+	height: 680px;
+	float: left;
+	background: #FFF;
+}
+
+#rightco{
+	width: 760px;
+	height: 680px;
+	float: left;
+	background: #FFF;
+}
+
+#bluechip{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	background: #ADFAF4;
+}
+
+#yellowchip{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	background: #FFFA79;
+}
+
+
+#orangechip{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	background: #FFB74A;
+
+}
+
+#purplechip{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	background: #AE83F7;
+}
+
+
+
+
+
+#text
+
+
+
+#footer
